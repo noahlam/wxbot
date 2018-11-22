@@ -1,0 +1,27 @@
+{
+  "name": "wxbot",
+  "version": "0.1.1",
+  "description": "an auto reply robot for wechat",
+  "main": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "robot": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahlam/wxbot.git"
+  },
+  "author": "noah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noahlam/wxbot.git/issues"
+  },
+  "homepage": "https://github.com/noahlam/wxbot.git#readme",
+  "dependencies": {
+    "axios": "*",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {}
+}
